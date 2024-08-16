@@ -1,0 +1,241 @@
+@media screen and (max-width: 576px) {
+    /* start navbar responsive */
+        
+    .navbar {
+        flex-direction: row;
+        padding: 10px;
+    }  
+    .navbar-links{
+        display: none;
+    }    
+    .hamburger{
+        display: block;
+    }
+    /* end navbar responsive */
+
+    /* start responsive banner section */
+    .banner {
+        flex-direction: column;
+        padding: 10px;
+    }
+
+    .banner-title{
+        flex-direction: column;
+        justify-content: space-between;
+        width: 100%;
+        margin: 0 auto;
+        
+    }
+    .banner-btn {
+        padding: 10px;
+        justify-content: center;
+    }
+
+    .btn-primary{
+        padding: 10px 25px;
+    }
+
+    .btn-dark {
+        padding: 10px 25px;
+    }
+
+    .banner-image {
+        width: 100%;    
+    }
+    
+    .five-hundred-plus{
+        top:550px;
+        left: 220px;
+    }
+    
+    .three-hundred-plus{
+        position: absolute;
+        top:850px;
+        left: 15px; 
+    }   
+    
+    /* end responsive banner section */
+
+
+    /* Start css main section- change your habit */
+    
+    .habits-titled h1 {
+        font-size: 2rem;
+    }
+    
+    .habits-titled p {
+        width: auto;
+        padding: 10px;
+    }
+
+    .habits-img-container {
+        flex-direction:column;
+        margin-top: 2rem;
+        padding: 10px;        
+    }
+
+    .unique-img-container {
+        padding: 25px;
+    }
+    
+    /* end css main section- change your habit */
+
+    /* Start main section- Run an Extra Mile Easily */  
+    .extra-mile-easily{   
+       flex-direction: column;
+       padding: 10px;                
+    }
+  
+    .join-btn {
+        display: inline-block;
+        background-color: #E6533C;
+        border-radius: 50px;
+    }
+    .join-btn button {
+        border:1px solid black;
+        width: 100%;
+        margin: 0 auto;
+    }
+
+    .run-easily-img {
+        width: 100%;
+        margin-top: 2rem;
+    }    
+    
+    /* end main section- Run an Extra Mile Easily */
+    
+    /* Start Trainings and exercises section */
+
+.training-and-exercise-container {
+    padding: 10px;
+}
+
+.gird-img-container {
+    flex-direction: column;
+}
+
+.grid-row-one {
+    flex-direction: column;
+}
+
+.grid-row-two {
+    flex-direction: column;
+}
+
+.grid-row-one img { 
+    
+}
+
+.grid-row-two img { 
+    
+}
+/* End Trainings and exercises section */
+
+/* Start BMI Calculator section */
+.bmi-calculator-container {
+    margin-top: 3rem;
+    padding: 10px;
+}
+
+
+
+/* .bmi-calculator-chart-wrap {
+    max-width:1440px;
+    margin: 0 auto;
+    margin-top: 3rem;
+    background-color: #222222;
+    padding: 30px;
+
+} */
+
+.bmi-two-column {
+    flex-direction: column;
+}
+
+.table-title-table-data {
+    width: 100%;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 10px;
+    
+    
+}
+
+.bmi-table-title  {
+    margin-bottom: 2rem;
+}
+
+
+
+.cal-bmi {
+    width: 100%;
+    padding: 0px;
+    margin-top: 2rem;
+    margin-left: 0rem;
+    
+}
+
+.cal-bmi-title {
+    padding: 0px 10px;
+}
+
+.cal-bmi-title h3 {
+    margin-bottom: 1rem;
+}
+
+.cal-bmi-title p{
+    width: 92%;
+    margin-bottom: 1.5rem;
+}
+
+.cal-form input{
+    background-color: #393939;
+    border: none;
+    font-size: 1rem;
+    font-weight: 600;
+    color: #959595;
+    padding: 15px;
+    margin: 5px;
+    border-radius: 5px;
+    width: 45%;
+    
+}
+.cal-form select {
+    background-color: #393939;
+    border: none;
+    font-size: 1rem;
+    font-weight: 600;
+    color: #959595;
+    padding: 15px;
+    margin: 5px;
+    border-radius: 5px;
+    width: 45%;
+}
+
+.activity-factor select {
+    background-color: #393939;
+    border: none;
+    font-size: 1rem;
+    font-weight: 600;
+    color: #959595;
+    padding: 15px;
+    border-radius: 5px;
+    width: 92%;
+}
+
+.cal-button {
+    padding: 15px;
+}
+ 
+
+
+
+
+/* End BMI Calculator section */
+
+
+    
+    
+    }
+
+   
